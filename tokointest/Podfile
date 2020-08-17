@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'tokointest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for tokointest
+
+pod 'Alamofire', '~> 5.2'
+pod 'SDWebImage', '~> 4.0'
+
+  target 'tokointestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'tokointestUITests' do
+    # Pods for testing
+  end
+
+end
