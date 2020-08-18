@@ -13,8 +13,8 @@ public let API_KEY: String = "c1b901d3091b4cb7a601b6f487b49fda"
 
 struct URLConstant {
     
-static let allArticles = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=" + API_KEY
-static let specificArticles = "https://newsapi.org/v2/everything?q=%@&from=2020-08-10&sortBy=publishedAt&apiKey=" + API_KEY
+    static let allArticles = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=" + API_KEY
+    static let specificArticles = "https://newsapi.org/v2/everything?q=%@&from=2020-08-10&sortBy=publishedAt&apiKey=" + API_KEY
 }
 
 enum APIError: String, Error {
@@ -31,64 +31,64 @@ protocol APIServiceProtocol {
 class APIService: APIServiceProtocol {
     func fetchAllArticles(complete: @escaping (_ success:Bool, _ articles:[Article],_ error: APIError?) -> Void) {
         guard let url = URL(string:URLConstant.allArticles) else {
-        complete(false, [], nil)
-        return
+            complete(false, [], nil)
+            return
         }
-    
+        
         AF.request(url,
-                          method: .get,
-                          parameters: nil)
-        .responseJSON { response in
-            switch response.result {
-                   case .success:
-                       print("Validation Successful : " + url.absoluteString)
-                       guard let value  = response.value as? [String: Any],
-                           let rows = value["articles"] as? [[String: Any]] else {
-                             print("Malformed data received from fetchAllArticles service")
-                             complete(false, [], nil)
+                   method: .get,
+                   parameters: nil)
+            .responseJSON { response in
+                switch response.result {
+                case .success:
+                    print("Validation Successful : " + url.absoluteString)
+                    guard let value  = response.value as? [String: Any],
+                        let rows = value["articles"] as? [[String: Any]] else {
+                            print("Malformed data received from fetchAllArticles service")
+                            complete(false, [], nil)
                             return
-                         }
-
-                       let articles = rows.compactMap { roomDict in
+                    }
+                    
+                    let articles = rows.compactMap { roomDict in
                         return Article(dict: roomDict)
-                       }
-                         complete(true, articles, nil)
-                        return
-                   case let .failure(error):
-                       print(error)
+                    }
+                    complete(true, articles, nil)
                     return
-                   }
+                case let .failure(error):
+                    print(error)
+                    return
+                }
         }
     }
     func fetchSpecificArticles(subject: String, complete: @escaping (_ success:Bool, _ articles:[Article],_ error: APIError?) -> Void) {
         guard let url = URL(string: String(format:URLConstant.specificArticles, subject)) else {
-        complete(false, [], nil)
-        return
+            complete(false, [], nil)
+            return
         }
-    
+        
         AF.request(url,
-                          method: .get,
-                          parameters: nil)
-        .responseJSON { response in
-            switch response.result {
-                   case .success:
+                   method: .get,
+                   parameters: nil)
+            .responseJSON { response in
+                switch response.result {
+                case .success:
                     print("Validation Successful : " + url.absoluteString)
-                       guard let value  = response.value as? [String: Any],
-                           let rows = value["articles"] as? [[String: Any]] else {
-                             print("Malformed data received from fetchAllArticles service")
-                             complete(false, [], nil)
+                    guard let value  = response.value as? [String: Any],
+                        let rows = value["articles"] as? [[String: Any]] else {
+                            print("Malformed data received from fetchAllArticles service")
+                            complete(false, [], nil)
                             return
-                         }
-
-                       let articles = rows.compactMap { roomDict in
+                    }
+                    
+                    let articles = rows.compactMap { roomDict in
                         return Article(dict: roomDict)
-                       }
-                         complete(true, articles, nil)
-                        return
-                   case let .failure(error):
-                       print(error)
+                    }
+                    complete(true, articles, nil)
                     return
-                   }
+                case let .failure(error):
+                    print(error)
+                    return
+                }
         }
     }
 }

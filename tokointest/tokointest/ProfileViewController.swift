@@ -76,7 +76,7 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
             print(error.localizedDescription)
             user = User()
             user?.userName = ""
-            user?.keyword = ""
+            user?.keyword = "bitcoin"
         }
         tfUsername.text = user?.userName ?? ""
         let index = pickerDataSource.firstIndex(of: user?.keyword ?? "") ?? 0

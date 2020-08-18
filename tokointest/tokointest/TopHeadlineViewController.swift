@@ -58,7 +58,11 @@ class TopHeadlineViewController: UIViewController, UITabBarControllerDelegate {
             self.tabBarController?.selectedIndex = 0
         } else {
             let user = User.getUserProfile()
-            self.navigationItem.title = user.keyword ?? "bitcoin"
+            var keyword = user.keyword ?? "bitcoin"
+            if keyword.isEmpty {
+                keyword = "bitcoin"
+            }
+            self.navigationItem.title = keyword
             self.tabBarController?.selectedIndex = 1
         }
     }
@@ -78,7 +82,11 @@ class TopHeadlineViewController: UIViewController, UITabBarControllerDelegate {
     
     func refreshSpecificArticleData() {
         let user = User.getUserProfile()
-        viewModel.initFetchSpecificArticle(subject: user.keyword ?? "bitcoin")
+        var keyword = user.keyword ?? "bitcoin"
+        if keyword.isEmpty {
+            keyword = "bitcoin"
+        }
+        viewModel.initFetchSpecificArticle(subject:keyword)
         self.navigationItem.title = user.keyword ?? "bitcoin"
         self.tabBarController?.selectedIndex = 1
     }

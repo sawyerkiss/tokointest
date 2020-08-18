@@ -43,10 +43,10 @@ class APIServiceTests: XCTestCase {
     }
     
     func test_specific_articles() {
-        fetch_specific_articles(subject: "bitcoin", count: 20)
+        fetch_specific_articles(subject: "bitcoin", count: 19)
         fetch_specific_articles(subject: "earthquake", count: 17)
-        fetch_specific_articles(subject: "animal", count: 15)
-        fetch_specific_articles(subject: "apple", count: 14)
+        fetch_specific_articles(subject: "animal", count: 19)
+        fetch_specific_articles(subject: "apple", count: 18)
     }
     
     func fetch_specific_articles(subject: String, count:Int) {
