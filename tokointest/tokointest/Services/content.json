@@ -1,0 +1,266 @@
+{
+"status": "ok",
+"totalResults": 70,
+"articles": [
+{
+"source": {
+"id": null,
+"name": "BBC News"
+},
+"author": "https://www.facebook.com/bbcnews",
+"title": "Trump dangles cash for US firms moving from China - BBC News",
+"description": "The US president is enticing companies to move factories back to America while punishing those who don’t.",
+"url": "https://www.bbc.com/news/business-53816277",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10110/production/_113980856_tv062946823.jpg",
+"publishedAt": "2020-08-18T04:04:25Z",
+"content": "Image copyrightReuters\r\nUS President Donald Trump wants to offer tax credits to entice US firms to move factories out of China.\r\nHe has also threatened to strip government contracts from firms that c… [+2123 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "CNBC"
+},
+"author": "Evelyn Cheng",
+"title": "China launches an investigation into some wine imports from Australia - CNBC",
+"description": "China is by far the largest destination for Australia's wine exports by value, according to the government's industry authority, Wine Australia.",
+"url": "https://www.cnbc.com/2020/08/18/china-launches-an-investigation-into-some-wine-imports-from-australia.html",
+"urlToImage": "https://image.cnbcfm.com/api/v1/image/106502972-1587658238225gettyimages-1153958985.jpeg?v=1597721999",
+"publishedAt": "2020-08-18T03:44:00Z",
+"content": "China's Ministry of Commerce said Tuesday it is launching an anti-dumping investigation into some wines imported from Australia.\r\nAustralia's Federal Trade Minister Simon Birmingham said in a stateme… [+3492 chars]"
+},
+{
+"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": null,
+"title": "Warren Buffett bets on Barrick Gold, cuts bank holdings in Q2 - Yahoo Finance",
+"description": null,
+"url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9M245Wk9XejFXQlnSAQA?oc=5",
+"urlToImage": null,
+"publishedAt": "2020-08-18T03:28:08Z",
+"content": null
+},
+{
+"source": {
+"id": null,
+"name": "Investor's Business Daily"
+},
+"author": "Investor's Business Daily",
+"title": "Dow Jones Futures Fall After 3 Stock Market Rally Leaders Hit Record Highs; Walmart Earnings Due - Investor's Business Daily",
+"description": "Dow Jones futures were in focus late Monday after the Nasdaq and stock market rally leaders Apple, Nvidia and Tesla surged to record highs.",
+"url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-rally-apple-nvidia-tesla-stock-amazon-new-buy-point/",
+"urlToImage": "https://www.investors.com/wp-content/uploads/2020/04/Stock-Tesla-09-adobe.jpg",
+"publishedAt": "2020-08-18T03:07:00Z",
+"content": "Dow Jones futures turned lower late Monday, while S&amp;P 500 futures and Nasdaq 100 futures were higher, after Monday's tech-driven stock market rally. Nvidia and Tesla surged to new highs Monday on… [+8134 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "KSL.com"
+},
+"author": "https://www.facebook.com/kslcom/",
+"title": "Remember Payless? Shoe seller is back and opening its 1st new-look US store in November - KSL.com",
+"description": "After filing for bankruptcy protection for the second time and shutting all of its 2,100 stores in the U.S. last year, discount shoe chain Payless is attempting a comeback.",
+"url": "https://www.ksl.com/article/50007330/remember-payless-shoe-seller-is-back-and-opening-its-1st-new-look-us-store-in-november",
+"urlToImage": "https://img.ksl.com/slc/2791/279143/27914378.jpeg?filter=ksl/responsive_story_lg",
+"publishedAt": "2020-08-18T02:55:30Z",
+"content": "CNN After filing for bankruptcy protection for the second time and shutting all of its 2,100 stores in the U.S. last year, discount shoe chain Payless is attempting a comeback.\r\nThe retailer said it'… [+2015 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Investing.com"
+},
+"author": null,
+"title": "Asia shares sluggish after Wall Street's tech-inspired rally - Investing.com",
+"description": "Asia shares sluggish after Wall Street's tech-inspired rally",
+"url": "https://www.investing.com/news/economy/asia-shares-set-to-follow-wall-streets-techdriven-rally-2268974",
+"urlToImage": "https://i-invdn-com.akamaized.net/trkd-images/LYNXNPEG7H007_L.jpg",
+"publishedAt": "2020-08-18T02:55:00Z",
+"content": "By Alun John and Chibuike Oguh\r\nHONG KONG/NEW YORK (Reuters) - Asian shares made cautious gains on Tuesday as the lift from Wall Street's tech-fueled rally was checked by investors' fresh concerns ab… [+2924 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Pavel Alpeyev",
+"title": "SoftBank Bets $3.9 Billion on U.S. Giants From Amazon to Tesla - Yahoo Finance",
+"description": "(Bloomberg) -- SoftBank Group Corp. has invested about $3.9 billion into 25 of the world’s largest technology companies including Amazon.com Inc., Tesla Inc., Netflix Inc. and Alphabet Inc.The Japanese conglomerate owned $1.04 billion of Amazon stock, its big…",
+"url": "https://finance.yahoo.com/news/softbank-bets-3-9-billion-015318398.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/ILLIzSzit5iM7AYCx5BLcg--~B/aD0xMzMzO3c9MjAwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_technology_68/c6660342a41951d8d7eb5c032c13c9bc",
+"publishedAt": "2020-08-18T02:26:08Z",
+"content": "(Bloomberg) -- SoftBank Group Corp. has invested about $3.9 billion into 25 of the worlds largest technology companies including Amazon.com Inc., Tesla Inc., Netflix Inc. and Alphabet Inc.\r\nThe Japan… [+2295 chars]"
+},
+{
+"source": {
+"id": "techcrunch",
+"name": "TechCrunch"
+},
+"author": "Manish Singh",
+"title": "Lightspeed raises $275 million fund for India - TechCrunch",
+"description": "Lightspeed India Partners on Tuesday announced it has closed $275 million from LPs for its third fund as the top American venture firm looks to ramp up its investments in the world’s second-largest internet market. The new fund, its biggest for India, will en…",
+"url": "http://techcrunch.com/2020/08/17/lightspeed-raises-275-million-fund-for-india/",
+"urlToImage": "https://techcrunch.com/wp-content/uploads/2020/08/GettyImages-1179154114.jpg?w=600",
+"publishedAt": "2020-08-18T02:22:00Z",
+"content": "Lightspeed India Partners on Tuesday announced it has closed $275 million from LPs for its third fund as the top American venture firm looks to ramp up its investments in the worlds second-largest in… [+3233 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "MarketWatch"
+},
+"author": "Jon Swartz",
+"title": "‘Fortnite’s’ impact could be Epic on antitrust investigations of Big Tech - MarketWatch",
+"description": "",
+"url": "https://www.marketwatch.com/story/fortnites-impact-could-be-epic-on-antitrust-investigations-of-big-tech-2020-08-17",
+"urlToImage": "https://s.marketwatch.com/public/resources/images/MW-IM551_Fortni_ZG_20200814125032.jpg",
+"publishedAt": "2020-08-18T02:20:00Z",
+"content": "As lawmakers and privacy advocates continue to methodically press for antitrust overhaul of four of techs biggest companies, some big names in videogaming could speed up things. That is one of the in… [+6543 chars]"
+},
+{
+"source": {
+"id": "fox-news",
+"name": "Fox News"
+},
+"author": "Mariah Haas",
+"title": "Ryan Reynolds has hilarious out of office message after selling Aviation gin for $610 Million - Fox News",
+"description": "Following news that Ryan Reynolds sold his Aviation Gin for an estimated $610 million, the \"Deadpool\" star has apparently left a hilarious out of office response.",
+"url": "https://www.foxnews.com/entertainment/ryan-reynolds-out-of-office-message-after-selling-aviation-gin",
+"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/05/Ryan-GETTY.jpg",
+"publishedAt": "2020-08-18T01:19:50Z",
+"content": "After Ryan Reynolds sold his Aviation Gin for an estimated $610 million, the \"Deadpool\" star has apparently set a hilarious out of office response.\r\nAccording to Entertainment Tonight, when someone n… [+2493 chars]"
+},
+{
+"source": {
+"id": "fox-news",
+"name": "Fox News"
+},
+"author": "Alexandra Deabler",
+"title": "Missouri home listed for $350G comes with 'legitimate jail' in basement - Fox News",
+"description": "A regal brick-lined home in Fayette, Mo., has recently hit the market for $350,000.",
+"url": "https://www.foxnews.com/real-estate/missouri-house-goes-viral-full-jail-basement",
+"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/08/home-missouri.jpg",
+"publishedAt": "2020-08-18T01:15:43Z",
+"content": "This is quite an arresting sight.\r\nA regal brick-facade home in Fayette, Mo., has recently hit the market for $350,000.\r\nLAS VEGAS HOME COMES WITH A 15,000-SQUARE-FOOT UNDERGROUND BOMB SHELTER\r\nThe b… [+1453 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "GSMArena.com"
+},
+"author": "Ricky",
+"title": "The US bans 38 Huawei affiliate companies that evaded the Huawei ban - GSMArena.com news - GSMArena.com",
+"description": "Huawei’s attempts to circumvent the US trade ban keep getting shut down.",
+"url": "https://www.gsmarena.com/the_us_bans_38_thirdparty_companies_that_were_selling_us_chips_to_huawei-news-44783.php",
+"urlToImage": "https://fdn.gsmarena.com/imgroot/news/20/08/us-bans-huawei-affiliate-companies/-476x249w4/gsmarena_000.jpg",
+"publishedAt": "2020-08-18T01:15:01Z",
+"content": "On Monday, the US BIS (Bureau of Industry and Security) within the Department of Commerce has announced that it will further limit Huawei from accessing US chips. According to the press release, Huaw… [+1415 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "MarketWatch"
+},
+"author": "Mike Murphy",
+"title": "Boeing offers workers a second round of voluntary layoffs - MarketWatch",
+"description": "",
+"url": "https://www.marketwatch.com/story/boeing-offers-workers-a-second-round-of-voluntary-layoffs-2020-08-17",
+"urlToImage": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg",
+"publishedAt": "2020-08-18T01:04:00Z",
+"content": "Boeing Co.\r\n BA, \r\n -3.40%\r\nwill offer its employees a second round of buyouts, the aviation giant said Monday. \"While we have seen signs of recovery from the pandemic, our industry and our customers… [+590 chars]"
+},
+{
+"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": null,
+"title": "South Dakota Record Yields Outshine the Also-Stellar Ohio Estimates - Agweb Powered by Farm Journal",
+"description": null,
+"url": "https://news.google.com/__i/rss/rd/articles/CBMiXWh0dHBzOi8vd3d3LmFnd2ViLmNvbS9hcnRpY2xlL3NvdXRoLWRha290YS1yZWNvcmQteWllbGRzLW91dHNoaW5lLWFsc28tc3RlbGxhci1vaGlvLWVzdGltYXRlc9IBAA?oc=5",
+"urlToImage": null,
+"publishedAt": "2020-08-18T01:00:00Z",
+"content": null
+},
+{
+"source": {
+"id": null,
+"name": "KRGV"
+},
+"author": "",
+"title": "Government claims Hidalgo County EMS committed fraud, improperly obtained Paycheck Protection Program loan - KRGV",
+"description": "The federal government accused Hidalgo County EMS of fraud on Saturday, claiming the ambulance company obtained a nearly $2.6 million Paycheck Protection Program loan by making a false statement during the application process.",
+"url": "http://www.krgv.com/news/government-claims-hidalgo-county-ems-committed-fraud-improperly-obtained-paycheck-protection-program-loan/",
+"urlToImage": "http://dcer237tfveol.cloudfront.net/v2/8q2C8y6htZh3k7hsK0R_pwXHXU7TlE8nbzs_5Ni8yk0q7fQEZzfTch83KYAZvUhPemyrM_5IY3CS96EoM1yujnqQ2ukMmcMlH_P-83ffCi9eThCRlqwOsczbOQPHouk0nSj7lGnSMTlBTAj1BiphSU",
+"publishedAt": "2020-08-18T00:53:09Z",
+"content": "The federal government accused Hidalgo County EMS of fraud on Saturday, claiming the ambulance company obtained a nearly $2.6 million Paycheck Protection Program loan by making a false statement duri… [+6352 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "KITV Honolulu"
+},
+"author": null,
+"title": "300 Pizza Huts are closing after a giant franchisee goes bankrupt - KITV Honolulu",
+"description": "Up to 300 Pizza Hut restaurants are slated to permanently close following the bankruptcy of one the chain's largest franchisees.",
+"url": "https://www.kitv.com/story/42506881/300-pizza-huts-are-closing-after-a-giant-franchisee-goes-bankrupt",
+"urlToImage": "https://KITV.images.worldnow.com/images/19815721_G.jpeg?lastEditedDate=1597697329000",
+"publishedAt": "2020-08-18T00:52:00Z",
+"content": "(CNN) -- Up to 300 Pizza Hut restaurants are slated to permanently close following the bankruptcy of one the chain's largest franchisees.\r\nNPC International, which filed for Chapter 11 in July, annou… [+1615 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Cointelegraph"
+},
+"author": "Turner Wright",
+"title": "Bitcoin Is Now Bigger than Bank of America and NZ Dollar by Market Cap - Cointelegraph",
+"description": "As Bitcoin reaches a new yearly high of $12,470, its market cap is now greater than Bank of America's and New Zealand’s fiat currency",
+"url": "https://cointelegraph.com/news/bitcoin-is-now-bigger-than-bank-of-america-and-nz-dollar-by-market-cap",
+"urlToImage": "https://s3.cointelegraph.com/storage/uploads/view/63b37bbcb5f9b3bc3f4887f074e902c3.jpg",
+"publishedAt": "2020-08-18T00:44:00Z",
+"content": "As Bitcoin gets more support from first-time investors, its market capitalization has risen past Bank of America's market valuation, and put it within striking distance of PayPals.\r\nAccording to Asse… [+2205 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Motley Fool"
+},
+"author": "Eric Volkman",
+"title": "Report: Amazon in Discussions to Buy Minority Stake in Rackspace - The Motley Fool",
+"description": "If a deal is ultimately reached, Amazon will own a chunk of a frequent business partner.",
+"url": "https://www.fool.com/investing/2020/08/17/report-amazon-in-discussions-to-buy-minority-stake/",
+"urlToImage": "https://g.foolcdn.com/editorial/images/588352/data-center.jpg",
+"publishedAt": "2020-08-18T00:28:00Z",
+"content": "Cloud services company Rackspace Technology(NASDAQ:RXT) was a hot ticket on Monday after a media report that a high-profile peer is in talks to buy a minority stake in the company. The Reuters report… [+1571 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "News3LV"
+},
+"author": "Peter Valencia",
+"title": "Police respond to altercation after passengers denied boarding at American Airlines gate - News3LV",
+"description": "The Las Vegas Metropolitan Police Department responded to an altercation at McCarran International Airport, an official confirmed Monday afternoon.  Initial reports of an active situation began at approximately 4:40 p. m. which an airport spokesperson confirm…",
+"url": "http://news3lv.com/news/local/police-respond-to-altercation-after-passengers-denied-boarding-at-american-airlines-gate",
+"urlToImage": "http://static-22.sinclairstoryline.com/resources/media/624911b4-e0ce-4912-b5c9-9036c52fd744-large16x9_McCarranFile2018_frame_49862.jpg?1597709979364",
+"publishedAt": "2020-08-18T00:25:44Z",
+"content": null
+},
+{
+"source": {
+"id": null,
+"name": "Times of San Diego"
+},
+"author": "Chris Jennewein",
+"title": "SDG&E: Rolling Blackouts Will Affect 100,000 Customers on Monday - Times of San Diego",
+"description": "San Diego Gas & Electric was directed to begin rolling blackouts Monday that could have effected 100,000 customers, but the power crisis was averted.",
+"url": "https://timesofsandiego.com/business/2020/08/17/sdge-rolling-blackouts-averted-monday-thanks-to-energy-conservation/",
+"urlToImage": "https://timesofsandiego.com/wp-content/uploads/2014/03/Sunrise-Complete-at-Sunset-e1410788295890.jpg",
+"publishedAt": "2020-08-18T00:00:00Z",
+"content": "Share This Article:The Sunrise Powerlink brings power through the desert to San Diego. Photo courtesy SDG&amp;E\r\nSan Diego Gas &amp; Electric was directed to begin rolling blackouts Monday that could… [+2083 chars]"
+}
+]
+}

@@ -35,7 +35,7 @@ class ArticleListViewModel: NSObject {
             return cellViewModels.count
         }
         
-        var isAllowSegue: Bool = false
+        var isAllowSegue: Bool = true
         
         var selectedArticle: Article?
 
@@ -47,7 +47,7 @@ class ArticleListViewModel: NSObject {
             self.apiService = apiService
         }
         
-        func initFetch() {
+        func initFetchAllArticles() {
             self.isLoading = true
             apiService.fetchAllArticles{ [weak self] (success, articles, error) in
                 self?.isLoading = false
@@ -58,13 +58,31 @@ class ArticleListViewModel: NSObject {
                 }
             }
         }
+    
+        func initFetchSpecificArticle(subject: String) {
+        self.isLoading = true
+        apiService.fetchSpecificArticles(subject: subject) { [weak self] (success, articles, error) in
+                       self?.isLoading = false
+                       if let error = error {
+                           self?.alertMessage = error.rawValue
+                       } else {
+                           self?.processFetchedArticles(articles: articles)
+                       }
+            }
+        }
         
         func getCellViewModel( at indexPath: IndexPath ) -> ArticleListCellViewModel {
             return cellViewModels[indexPath.row]
         }
         
-        func createCellViewModel( article: Article ) -> ArticleListCellViewModel {
-            return ArticleListCellViewModel( author: article.author, title: article.title, description: article.description, url: article.url, urlToImage: article.urlToImage, publishedAt: article.publishedAt, content: article.content)
+        func createCellViewModel( article: Article?) -> ArticleListCellViewModel {
+            return ArticleListCellViewModel( author: article?.author ?? "",
+                                             title: article?.title ?? "",
+                                             description: article?.description ?? "",
+                                             url: article?.url ?? "",
+                                             urlToImage: article?.urlToImage ?? "",
+                                             publishedAt: article?.publishedAt ?? "",
+                                             content: article?.content ?? "")
         }
         
         private func processFetchedArticles( articles: [Article] ) {
@@ -82,7 +100,6 @@ class ArticleListViewModel: NSObject {
         func userPressed( at indexPath: IndexPath ){
             let article = self.articles[indexPath.row]
             self.selectedArticle = article
-            
         }
     }
 

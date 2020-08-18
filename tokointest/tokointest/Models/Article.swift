@@ -13,15 +13,15 @@ class Articles: Codable {
 }
 
 class Article: Codable {
-    let author: String
-    let title: String
-    let description: String
-    let url: String
-    let urlToImage: String
-    let publishedAt: String
-    let content: String
+    let author: String?
+    let title: String?
+    let description: String?
+    let url: String?
+    let urlToImage: String?
+    let publishedAt: String?
+    let content: String?
     
-    init?(dict: [String: Any]) {
+    init?(dict: [String: Any?]) {
         guard
             let author = dict["author"] as? String,
             let title = dict["title"] as? String,
