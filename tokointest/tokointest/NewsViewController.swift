@@ -8,11 +8,17 @@
 
 import UIKit
 
-class NewsViewController: UIViewController {
+class NewsViewController: TopHeadlineViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    override func initData() {
+        let user = User.getUserProfile()
+                   viewModel.initFetchSpecificArticle(subject: user.keyword ?? "bitcoin")
+                   self.navigationItem.title = user.keyword ?? "bitcoin"
     }
 
 

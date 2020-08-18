@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="1659.4202898550725" y="359.59821428571428"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tokoin Tab Bar View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TokoinTabBarViewController" customModule="tokointest" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -175,8 +175,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="K4x-Vs-YYg" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="l3X-5o-PD7" kind="relationship" relationship="viewControllers" id="BV2-ut-wNn"/>
-                        <segue destination="jtd-Qe-GDr" kind="relationship" relationship="viewControllers" id="mNf-TQ-Ao9"/>
+                        <segue destination="l3X-5o-PD7" kind="relationship" relationship="viewControllers" id="9oc-Yg-Gfa"/>
+                        <segue destination="jtd-Qe-GDr" kind="relationship" relationship="viewControllers" id="3tL-4V-i2K"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>

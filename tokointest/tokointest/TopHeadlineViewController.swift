@@ -8,10 +8,12 @@
 
 import UIKit
 
-class TopHeadlineViewController: UIViewController {
+class TopHeadlineViewController: UIViewController, UITabBarControllerDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
+    var firstLoad: Bool = true
     
     lazy var viewModel: ArticleListViewModel = {
         return ArticleListViewModel()
@@ -26,36 +28,59 @@ class TopHeadlineViewController: UIViewController {
         // init view model
         initVM()
         
+        initData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
         super.viewWillAppear(animated)
-        
-        self.initData()
+        if !firstLoad {
+            if self.tabBarController?.selectedIndex == 0 {
+                initTabBar()
+                refreshSpecificArticleData()
+            } else if self.tabBarController?.selectedIndex == 1 {
+                initTabBar()
+                refreshAllArticlesData()
+            }
+        }
+        firstLoad = false
     }
     
     func initView() {
+        initTabBar()
+        tableView.estimatedRowHeight = 150
+        tableView.rowHeight = UITableView.automaticDimension
+        self.tabBarController?.delegate = self
+    }
+    
+    func initTabBar() {
         if self.tabBarController?.selectedIndex == 0 {
             self.navigationItem.title = "Tokoin"
+            self.tabBarController?.selectedIndex = 0
         } else {
             let user = User.getUserProfile()
             self.navigationItem.title = user.keyword ?? "bitcoin"
+            self.tabBarController?.selectedIndex = 1
         }
-        
-        tableView.estimatedRowHeight = 150
-        tableView.rowHeight = UITableView.automaticDimension
     }
     
     func initData() {
-        if self.tabBarController?.selectedIndex == 0 {
-            viewModel.initFetchAllArticles()
-            self.navigationItem.title = "Tokoin"
-        } else {
-            let user = User.getUserProfile()
-            viewModel.initFetchSpecificArticle(subject: user.keyword ?? "bitcoin")
-            self.navigationItem.title = user.keyword ?? "bitcoin"
-        }
+        viewModel.initFetchAllArticles()
+        self.tabBarController?.selectedIndex = 0
+        self.navigationItem.title = "Tokoin"
+        firstLoad = true
+    }
+    
+    func refreshAllArticlesData() {
+        viewModel.initFetchAllArticles()
+        self.navigationItem.title = "Tokoin"
+        self.tabBarController?.selectedIndex = 0
+    }
+    
+    func refreshSpecificArticleData() {
+        let user = User.getUserProfile()
+        viewModel.initFetchSpecificArticle(subject: user.keyword ?? "bitcoin")
+        self.navigationItem.title = user.keyword ?? "bitcoin"
+        self.tabBarController?.selectedIndex = 1
     }
     
     func initVM() {
@@ -93,6 +118,16 @@ class TopHeadlineViewController: UIViewController {
         }
         
         
+    }
+    
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        if self.tabBarController?.selectedIndex == 1 {
+            initTabBar()
+            refreshSpecificArticleData()
+        } else if self.tabBarController?.selectedIndex == 0 {
+            initTabBar()
+            refreshAllArticlesData()
+        }
     }
     
     func showAlert( _ message: String ) {
